@@ -25,7 +25,7 @@ class HelloName extends StatelessWidget {
                     letterSpacing: 0.6,
                     color: const Color(0xff757084),
                     textStyle: const TextStyle(
-                        fontWeight: FontWeight.w500, fontSize: 25),
+                        fontWeight: FontWeight.w500, fontSize: 23),
                   )),
             ),
 
@@ -38,7 +38,7 @@ class HelloName extends StatelessWidget {
                     letterSpacing: 0.6,
                     color: const Color(0xff39304E),
                     textStyle: const TextStyle(
-                        fontWeight: FontWeight.w800, fontSize: 31),
+                        fontWeight: FontWeight.w800, fontSize: 27),
                   )),
             ),
           ],
@@ -50,8 +50,8 @@ class HelloName extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(right: 26.0, top: 100),
           child: Container(
-            width: 67,
-            height: 67,
+            width: 60,
+            height: 60,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(19),
                 color: Colors.deepPurple),
